@@ -1,0 +1,6 @@
+{
+  "buttonPushed": "You have pushed the button this many times:",
+  "@buttonPushed": {
+    "description": "The conventional newborn programmer greeting"
+  }
+}
