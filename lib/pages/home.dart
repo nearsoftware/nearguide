@@ -11,9 +11,19 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  bool isAuth = true;
+
+  buildAuthScreen() {
+    return Text("Autorizadíssimoooo");
+  }
+  buildUnauthScreen() {
+    return Text("Currently working on an auth flow with Google Sign In, so you can log in to NEAR, post, follow and be followed, & so on. Please come back soon.");
+  }
   @override
   Widget build(BuildContext context) {
-    return Text(AppLocalizations.of(context)!.buttonPushed);
+    return isAuth ? buildAuthScreen() : buildUnauthScreen();
 
   }
 }
+
+// Text(AppLocalizations.of(context)!.buttonPushed);

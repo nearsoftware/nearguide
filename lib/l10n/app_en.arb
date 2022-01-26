@@ -1,6 +1,7 @@
 {
   "buttonPushed": "Welcome to near.",
   "@buttonPushed": {
-    "description": "The conventional newborn programmer greeting"
+    "description": "A simple welcome message."
   }
+
 }
