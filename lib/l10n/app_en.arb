@@ -1,5 +1,5 @@
 {
-  "buttonPushed": "Welcome to near. For now, all you can do here is push the + button to make the counter go up, check it out:",
+  "buttonPushed": "Welcome to near.",
   "@buttonPushed": {
     "description": "The conventional newborn programmer greeting"
   }
