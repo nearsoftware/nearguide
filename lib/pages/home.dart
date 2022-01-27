@@ -20,6 +20,15 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: SizedBox.expand(
         child: Container(
+          decoration: BoxDecoration(
+            gradient: RadialGradient(
+              colors: [
+                Colors.teal,
+                Colors.tealAccent,
+              ],
+            ),
+          ),
+          alignment: Alignment.center,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
